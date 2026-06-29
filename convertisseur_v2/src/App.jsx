@@ -162,7 +162,6 @@ function App() {
           </div>
         )}
 
-        {/* Taux utilisé — classe obligatoire .vercss */}
         {result !== null && (
           <p>
             Taux : 1 {fromCurrency} = {(getRateByCode(toCurrency) / getRateByCode(fromCurrency)).toFixed(6)} {toCurrency}
